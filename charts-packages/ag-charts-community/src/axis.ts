@@ -12,7 +12,7 @@ import { normalizeAngle360, normalizeAngle360Inclusive, toRadians } from "./util
 import { doOnce } from "./util/function";
 import { ContinuousScale } from "./scale/continuousScale";
 import { CountableTimeInterval } from "./util/time/interval";
-import { CrossLine } from "./chart/crossLine";
+import { CrossLine } from "./chart/crossline/crossLine";
 import { Validate, BOOLEAN, OPT_BOOLEAN, NUMBER, OPT_NUMBER, OPT_FONT_STYLE, OPT_FONT_WEIGHT, STRING, OPT_STRING } from './util/validation';
 import { ChartAxisDirection } from "./main";
 
